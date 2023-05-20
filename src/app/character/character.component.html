@@ -1,0 +1,67 @@
+<div class="row col-6 smt-3 m-3 rounded mx-auto">
+  <div class="col">
+
+
+    <table class="table table-danger table-striped" border=1>
+      <tbody>
+        <tr>
+          <th>id</th>
+          <td>{{characterChild.id }}</td>
+        </tr>
+        <tr>
+          <th>name</th>
+          <td>{{characterChild.name }}</td>
+        </tr>
+        <tr>
+          <th>status</th>
+          <td>{{characterChild.status }}</td>
+        </tr>
+        <tr>
+          <th>species</th>
+          <td>{{characterChild.species }}</td>
+        </tr>
+        <tr>
+          <th>type</th>
+          <td>{{characterChild.type }}</td>
+        </tr>
+        <tr>
+          <th>gender</th>
+          <td>{{characterChild.gender }}</td>
+        </tr>
+        <tr>
+          <th>origin name</th>
+          <td>{{characterChild.origin.name}}</td>
+        </tr>
+        <tr>
+          <th>origin url</th>
+          <td><a href="{{characterChild.origin.url }}">{{characterChild.origin.url}}</a></td>
+        </tr>
+        <tr>
+          <th>location name</th>
+          <td>{{characterChild.location.name }}</td>
+        </tr>
+        <tr>
+          <th>location url</th>
+          <td><a href="{{characterChild.location.url }}">{{characterChild.location.url }}</a></td>
+        </tr>
+        <tr>
+          <th>image</th>
+          <td><img src="{{characterChild.image }}"></td>
+        </tr>
+        <tr *ngFor="let e of characterChild.episode">
+          <th><a href="{{e}}">{{e}}</a></th>
+          <td></td>
+        </tr>
+        <tr>
+          <th>url</th>
+          <td><a href="{{characterChild.url }}">{{characterChild.url }}</a></td>
+        </tr>
+        <tr>
+          <th>created</th>
+          <td>{{characterChild.created }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
