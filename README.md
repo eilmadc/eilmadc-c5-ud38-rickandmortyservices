@@ -5,3 +5,6 @@
 
 
 ## API Rick and Morty: https://rickandmortyapi.com/
+
+![image](https://github.com/eilmadc/eilmadc-c5-ud38-rickandmortyservices/assets/57563030/d2c3960a-268b-452a-953e-adb02475dc0d)
+
