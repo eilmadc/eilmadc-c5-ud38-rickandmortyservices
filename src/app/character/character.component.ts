@@ -1,8 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CharacterService } from '../service/character.service';
-import { CharactersComponent } from '../characters/characters.component';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { Observable, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-character',
